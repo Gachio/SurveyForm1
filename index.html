@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>A survey form</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="styles.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <section>
+    <h1 id="title"  class="text-center">Let me contribute to your project</h1>
+    <div id="main" class="container col-xs-8 col-md-6 border rounded shadow-sm p-3 bg-white rounded">
+    <form id="survey-form" action="" method="get">
+        <p id="description" class="text-center mb-5">Uncheck the irrelevant skills</p>
+        <label id="name-label">Name</label>
+        <input class="mb-4" type="text" id="name" name="name" placeholder="It displays that name" required>
+        <br>
+        <label id="email-label">Email:</label>
+        <input  class="mb-4" type="email" id="email" name="email" placeholder="It displays your email" required>
+        <br>
+        <label id="number-label">New Age </label>
+        <input class="mb-4" type="number" id="number" name="year"  min="18" max="99" placeholder="New Age">
+        <br>
+        <label id="fem">Sex</label>
+        <input  class="ml-3" type="radio" name="gender" value="fem">Female
+        <input class="ml-3" type="radio" name="gender" value="mal">Male
+        <br>
+        <input id="other" class="mb-4" type="radio" name="gender" value="other">Other
+        <br>
+        <label id="country-label">Country</label>
+        <input class="mb-4" type="text" id="country" placeholder="It jots your country">
+        <br>
+        <label id="education-label">Education:</label>
+        <select class="mb-4" id="dropdown">
+        <option>Choose</option>
+        <option>Secondary completed</option>
+        <option>University in progress</option>
+        <option>Completed university</option>
+        <option>Tertiary in progress</option>
+        <option>Completed Tertiary</option>
+        <option>Graduate in progress</option>
+        <option>Postgraduate completed</option>
+        <option>Doctorate in progress</option>
+        <option>Doctorate completed</option>
+        </select>
+        <br>
+        <label id="skill-label">Skills:</label>
+        <input id="html" type="checkbox" value="HTML5" name="skill">HTML5
+        <input  class="ml-2" type="checkbox" value="CSS3" name="skill">CSS3
+        <input class="ml-2" type="checkbox" value="Django" name="skill">Django
+        <br>
+        <input id="jav" type="checkbox" value="MySQL" name="skill">MySQL
+        <input   class="ml-2" type="checkbox" value="javascript" name="skill">JavaScript
+        <br>
+        <input id="boot" type="checkbox" value="bootstrap" name="skill">Bootstrap
+        <input class="ml-2" type="checkbox" value="jquery" name="skill">JQuery
+        <br>
+        <input id="javjav" type="checkbox" value="java" name="skill">Java
+        <input class="ml-2" type="checkbox" value="phyton" name="skill">Phyton
+        <input class="ml-2" class="mb-4" type="checkbox" value="Ruby" name="skill">Ruby
+        <br>
+        <label class="mt-5">We'd love to hear about your virtues and strengths</label>
+        <br>
+        <textarea class="mb-4 p-5" ></textarea>
+        <br>
+        <button id="submit" type="submit" class="btn btn-primary btn-lg btn-block mt-5">Switch it</button>
+    </form>
+    </div>
+    </section>
+</body>
+</html>

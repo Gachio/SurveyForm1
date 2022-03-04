@@ -1,0 +1,127 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-size: 16px;
+  }
+  
+  
+  section {
+    padding-bottom: 60px;
+    width: 100%;
+  }
+  body {
+      background-image: url("https://i.pinimg.com/originals/32/b8/77/32b877ed4aa7778cc7d43ebb7d95a6f1.png");
+    background-size: cover;
+  }
+  #survey-form {
+    font-size: 0.8rem;
+  }
+  
+  #name {
+    margin-left: 30px;
+  }
+  #email {
+    margin-left: 32px;
+  }
+  #number {
+    margin-left: 10px;
+  }
+  
+  #fem {
+    margin-right: 40px;
+  }
+  
+  #country {
+    margin-left: 17px;
+  }
+  
+  #dropdown {
+    margin-left: 1px;
+  }
+  #html {
+    margin-left: 55px;
+  }
+  
+  #jav {
+    margin-left: 98px;
+  }
+  #main {
+   width: 99%;
+  }
+  #javjav {
+    margin-left: 98px;
+    margin-top: 15px;
+  }
+  #boot {
+    margin-left: 98px;
+    margin-top: 15px;
+  }
+  
+  textarea {
+    width: 99%;
+    border: 1px solid grey;
+  }
+  #other {
+    margin-left:97px;
+  }
+  #name, #email, #number, #country {
+      padding: 8px 11px 8px 8px;
+    border: 1px solid grey;
+  
+  }
+  #dropdown {
+    padding: 8px 11px 8px 8px;
+    border: 1px solid grey;
+  }
+  #title {
+    color:white;
+    font-size: 1.7rem;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+    text-shadow:  -1px 0px 16px rgba(181, 184, 163, 1);
+  }
+  
+  @media (min-width: 425px) {
+    #main {
+      width: 90%;
+    }
+  #name, #email, #number, #country {
+      padding: 8px 71px 8px 8px;
+  
+  }
+  #dropdown {
+    padding: 8px 70px 8px 8px;
+  }
+  }
+  
+  @media (min-width: 1024px) {
+    #name-label, #email-label, #number-label, #fem, #country-label, #education-label, #skill-label {
+      margin-left: 90px;
+    }
+    
+    #other.mb-4, #jav, #boot, #javjav {
+      margin-left: 187px;
+    }
+   
+  
+  }
+  @media (min-width: 1224px) {
+    #name-label, #email-label, #number-label, #fem, #country-label, #education-label, #skill-label {
+      margin-left: 130px;
+    }
+   
+    #other.mb-4, #jav, #boot, #javjav {
+      margin-left: 228px;
+    }
+  }
+  @media (min-width: 1440px) {
+    #name-label, #email-label, #number-label, #fem, #country-label, #education-label, #skill-label {
+      margin-left: 200px;
+    }
+    
+    #other.mb-4, #jav, #boot, #javjav {
+      margin-left: 297px;
+    }
+  }
